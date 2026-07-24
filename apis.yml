@@ -1,8 +1,28 @@
 aid: beike
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beike.png
 name: Beike
-description: 'Beike is a company surfaced as a portfolio company of hongshan, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: technology. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Beike (KE Holdings Inc.) is China''s largest integrated online-and-offline
+  platform for housing transactions and services, connecting home buyers, sellers,
+  renters, and real estate agents. It operates the Beike (贝壳) platform and the Lianjia
+  (链家) brokerage brand, along with businesses spanning existing-home and new-home
+  transactions, home rentals, and home renovation and furnishing. Its Agent Cooperation
+  Network (ACN) lets brokerages and agents share listings and commissions across a
+  standardized workflow. KE Holdings is dual-listed on the New York Stock Exchange
+  (NYSE: BEKE) and the Hong Kong Stock Exchange (HKEX: 2423) and is headquartered in
+  Beijing. This API Evangelist profile was created from venture-portfolio sourcing
+  and enriched via the pipeline; Beike operates consumer-facing housing web and mobile
+  properties and does not currently publish a public developer API program.'
 url: https://raw.githubusercontent.com/api-evangelist/beike/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Technology
+- Real Estate
+- Housing
+- Property
+- Marketplace
+- Consumer
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beike-domain-security.yml
 - type: Website
   url: https://ke.com
+- type: PrivacyPolicy
+  url: https://ke.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
