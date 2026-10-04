@@ -48,7 +48,7 @@ modified: '2026-07-18'
 tags:
 - Company
 - Technology
-- Real-Estate
+- Real Estate
 - Housing
 - Property
 - Marketplace
@@ -63,6 +63,7 @@ tags_raw:
 - Marketplace
 - Consumer
 - China
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
